@@ -117,7 +117,7 @@ input {
     border-radius: 1rem;
     margin: 0 auto;
     background-color: rgb(167, 147, 189);
-    width: 20vw;
+    width: 23vw;
     height: 2hw;
     text-align: center;
 }
@@ -128,7 +128,7 @@ input {
     border-radius: 5px;
     background-color: rgb(38, 73, 30);
     margin: 0 auto;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.3rem;
     width: 5rem;
     height: 1.6rem;
 }

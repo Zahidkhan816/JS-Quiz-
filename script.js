@@ -156,16 +156,16 @@ submit.addEventListener('click', () => {
         }
     }
 })
-previous.addEventListener('click', () => {
-    if (questionNumber >=1 ){
-        questionNumber--
-    }
-    if (questionNumber < QuizDB.length) {
-        loadquestion();
-        console.log(" im in ifmst", questionNumber)
-    }
-    console.log("im minus count ", questionNumber)
-})
+// previous.addEventListener('click', () => {
+//     if (questionNumber >=1 ){
+//         questionNumber--
+//     }
+//     if (questionNumber < QuizDB.length) {
+//         loadquestion();
+//         console.log(" im in ifmst", questionNumber)
+//     }
+//     console.log("im minus count ", questionNumber)
+// })
 
 // countdowntimmer2
 
@@ -201,8 +201,3 @@ function countdown() {
         clearInterval(x);
     }
 }
-
-
-
-
-
