@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Quiz Application </title>
+</head>
+
+<body>
+   
+    <div class="container">
+        <div>
+            <p class="line-1 anim-typewriter">Be attentive Time Is Short!.......... <i class="fa-solid fa-clock"></i></p>
+        </div>  
+        <div class="Box1">   
+            <div class="solutions">
+                <div class="quiz-discription">
+                    <h6>Total Questions: 10 (10 Marks) </h6>
+                    <h6>Alowed Time: 40 Seconds </h6>
+                    <h6 class="currentPossition"></h6>
+                </div>
+                <div class="timmer">
+                    <div id="some_div"></div>
+                </div>
+                <h2 class="question">
+                    Questions will be here :
+                </h2>
+                <ul>
+                    <li> <input type="radio" name="answere" id="ans1" class="answere">
+                        <label for="ans1" id="option1"> answere1 </label>
+                    </li>
+                    <li> <input type="radio" name="answere" id="ans2" class="answere">
+                        <label for="ans2" id="option2"> answere1 </label>
+                    </li>
+                    <li> <input type="radio" name="answere" id="ans3" class="answere">
+                        <label for="ans3" id="option3"> answere1 </label>
+                    </li>
+                    <li> <input type="radio" name="answere" id="ans4" class="answere">
+                        <label for="ans4" id="option4"> answere1 </label>
+                    </li>
+                </ul>
+            </div>
+           
+            <div>
+                <div class="box1-buttons">
+                    <button id="submit">Next</button>
+                    <!-- <button id="previous">previous</button> -->
+                </div> 
+                <div class="results">
+                    <div id="showscore" class="scoreare">
+                    </div>
+                    <div id="recomendation" class="recomend">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
